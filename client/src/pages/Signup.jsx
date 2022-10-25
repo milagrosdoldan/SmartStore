@@ -29,7 +29,7 @@ const Signup = () => {
   } = useForm();
 
   const handleRegister = (data) => {
-    dispatch(signUp(data)).then(() => navigate("/"));
+    dispatch(signUp(data)).then(() => navigate("/login"));
   };
 
   return (
